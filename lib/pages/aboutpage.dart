@@ -16,7 +16,6 @@ class _AboutState extends State<About> {
       body: const Text("This is an application where one can book a traveling ticket using their smartphones without having take a taxi to town to make ticket booking."
           "This application was developed by Amandla Ntwana a student doing Advanced Diploma in Application development for the module Application technology as a problem solving application for people living in rural areas who have to take a taxi to town for them to book a ticket."
           "This application was developed in November 2022 "),
-
     );
   }
 }

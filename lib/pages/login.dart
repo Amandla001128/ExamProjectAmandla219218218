@@ -35,29 +35,15 @@ class MyCustomFormState extends State<MyCustomForm>{
           TextFormField(
             decoration: const InputDecoration(
               icon: const Icon(Icons.person),
-              hintText: "Enter your First name",
-              labelText: "First Name",
+              hintText: "Enter your username",
+              labelText: "Username",
             ),
           ),
           TextFormField(
             decoration: const InputDecoration(
-              icon: const Icon(Icons.person),
-              hintText: "Enter your Last Name",
-              labelText: "Last Name",
-            ),
-          ),
-          TextFormField(
-            decoration: const InputDecoration(
-              icon: const Icon(Icons.email),
-              hintText: "Enter your email address",
-              labelText: "Email Address",
-            ),
-          ),
-          TextFormField(
-            decoration: const InputDecoration(
-              icon: const Icon(Icons.phone),
-              hintText: "Enter your cellphone number",
-              labelText: "Cellphone Number",
+              icon: const Icon(Icons.password),
+              hintText: "Enter your password",
+              labelText: "Password",
             ),
           ),
           new Container(

@@ -60,6 +60,20 @@ class MyCustomFormState extends State<MyCustomForm>{
               labelText: "Cellphone Number",
             ),
           ),
+          TextFormField(
+            decoration: const InputDecoration(
+              icon: const Icon(Icons.person),
+              hintText: "Create your username",
+              labelText: "Username",
+            ),
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              icon: const Icon(Icons.password),
+              hintText: "Create your password",
+              labelText: "Password",
+            ),
+          ),
           new Container(
               padding: const EdgeInsets.only(left: 150.0, top: 40.0),
               child: TextButton(

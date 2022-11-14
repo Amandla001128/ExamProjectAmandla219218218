@@ -29,24 +29,28 @@ class _HomepageState extends State<Homepage> {
                     return const About();
                   }));
                 }, child: const Text("About")),
+                const SizedBox(height: 20.0),
                 ElevatedButton(onPressed: () {
                   Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) {
                         return  const Contactpage();
                       }));
                 }, child: const Text("Contact")),
+                const SizedBox(height: 20.0),
                 ElevatedButton(onPressed: () {
                   Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) {
                         return const Signup();
                       }));
                 }, child: const Text("Signup")),
+                const SizedBox(height: 20.0),
                 ElevatedButton(onPressed: () {
                   Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) {
                         return const Login();
                       }));
                 }, child: const Text("Login")),
+                const SizedBox(height: 20.0),
                 ElevatedButton(onPressed: () {
                   Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) {
